@@ -41,6 +41,11 @@ public class Next : MonoBehaviour
         {
             RestartGame(0);
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 }
 

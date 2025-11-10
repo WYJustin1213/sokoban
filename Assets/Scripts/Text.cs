@@ -8,7 +8,7 @@ public class Text: MonoBehaviour
 
     void Start()
     {
-        instructions.text = "[R] Restart level, [G] restart Game, [ESC] quit, OBJECTIVE: Connect the white block with one other shinny blocks.";
+        instructions.text = "[R] Restart level, [G] restart Game, [ESC] quit, OBJECTIVE: Connect the shinny block with the white block.";
     }
 
     void Update()
@@ -21,7 +21,7 @@ public class Text: MonoBehaviour
 
         else
         {
-            instructions.text = "[R] Restart level, [G] restart Game, [ESC] quit, OBJECTIVE: Connect the white block with one other shinny blocks.";
+            instructions.text = "[R] Restart level, [G] restart Game, [ESC] quit, OBJECTIVE: Connect the shinny block with the white block.";
         }
     }
 }
