@@ -108,9 +108,11 @@ MonoBehaviour:
     m_RotationOrder: 4
   speed: 0
   lerpSnapDist: 0
+  targetPos: {x: 0, y: 0, z: 0}
   canMove: 0
   gridPos: {x: 0, y: 0}
   moveChange: {x: 0, y: 0}
+  state: 0
 --- !u!65 &6752028084059856965
 BoxCollider:
   m_ObjectHideFlags: 0
